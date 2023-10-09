@@ -1,0 +1,107 @@
+body {
+    margin:0;
+    width: 1440px;
+    background-color: rgba(223, 243, 228, 0.24);
+}
+
+#title {
+    background-color: #171738;
+    color: #DFF3E4;
+    width: 1424px;
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Dela Gothic One', cursive;
+    padding: 27px 0;
+    padding-left: 16px
+}
+
+.navbar {
+    background-color: #2E1760;
+    text-align: center;
+    width: 1440px;
+    padding: 8px 0;
+}
+
+.navButton {
+    padding: 16px 40px;
+    width: 1440px;
+    color: #DFF3E4;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+#banner {
+    position: relative;
+    text-align: center;
+    width: 720px;
+    height: 480px;
+    align-items: center;
+    margin: 32px auto;
+}
+
+.bannerContent {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top:0;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.48);
+    height: 100%;
+    width:100%;
+}
+
+.bannerContent h2 {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+}
+
+.bannerImg {
+    text-align: center;
+    object-fit: cover;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    color: #2E1760;
+}
+
+#seeEntry {
+    background-color: #2E1760;
+    color: #DFF3E4;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+#seeEntry:hover {
+    background-color: #DFF3E4;
+    color: #2E1760;
+    padding: 16px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+.map{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: 32px auto;
+}
+.map h2{
+    text-align: left;
+    margin-left: 70px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mapImage {
+    text-align: center;
+    width: 720px;
+}

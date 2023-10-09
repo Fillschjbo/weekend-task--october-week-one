@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cefalú</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="cefalu.css"/>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 id="title">
+        Travel Adventures of Fillip
+      </h1>
+      <section class="navbar">
+        <a href="index.html" class="navButton">
+          Home
+        </a>
+        <a href="travel_entries.html" class="navButton">
+          Travel Entries
+        </a>
+      </section>
+    </nav>
+  </header>
+
+  <section class="entrySection">
+    <div class="entry">
+      <h2>Two Weeks in Cefalú</h2>
+      <div class="image cefalu"></div>
+      <p>My experience in Cefalù was nothing short of enchanting. This coastal town in Sicily welcomed me with its historic charm, stunning beaches, and delectable cuisine. From exploring the medieval streets and the awe-inspiring cathedral to relaxing on the golden sands and indulging in local delicacies, every moment in Cefalù was a delightful adventure. The warmth of the Mediterranean sun and the friendliness of the locals added to the magic of my stay, leaving me with cherished memories and a desire to return.</p>
+    </div>
+  </section>
+
+  <form action="">
+    <section class="container">
+      <label for="name">First name</label>
+      <input type="text" name="name" id="name"/>
+      <div class="feedbackContainer">
+        <label for="message">Give me feedback!</label>
+        <textarea name="message" id="message" rows="8" cols="50"></textarea>
+     </div>
+
+      <div class="feedbackContainer">
+        <span>How did you like the journal?:</span>
+        <label>
+          <input type="radio" name="vote" value="lovedIt" checked/>
+          Loved it
+        </label>
+
+        <label>
+          <input type="radio" name="vote" value="itsOkay"/>
+          Its okay
+        </label>
+
+        <label>
+          <input type="radio" name="vote" value="didntEnjoy"/>
+          Didnt enjoy
+        </label>
+      </div>
+      <button class="submit" type="submit">Submit</button>
+    </section>
+  </form>
+
+</body>
+<html/>

@@ -1,0 +1,81 @@
+body {
+    margin:0;
+    width: 1440px;
+    background-color: rgba(223, 243, 228, 0.24);
+}
+
+#title {
+    background-color: #171738;
+    color: #DFF3E4;
+    width: 1424px;
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Dela Gothic One', cursive;
+    padding: 27px 0;
+    padding-left: 16px
+}
+
+.navbar {
+    background-color: #2E1760;
+    text-align: center;
+    width: 1440px;
+    padding: 8px 0;
+}
+
+.navButton {
+    padding: 16px 40px;
+    width: 1440px;
+    color: #DFF3E4;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(229, 228, 228, 0.4);
+    height: 448px;
+    width: 310px;
+    margin: 20px;
+    color: #171738;
+}
+
+.card-image {
+    background-color: lightsalmon;
+    height: 328px;
+    margin: 8px;
+    background-size: cover;
+}
+
+.card h2 {
+    font-family: 'Dela Gothic One', cursive;
+    margin: 10px;
+}
+
+.card p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.img1 {
+    background-image: url("assets/imgs/cefalu.jpeg");
+}
+
+.img2 {
+    background-image: url("assets/imgs/algarve.jpeg");
+}
+
+.img3 {
+    background-image: url("assets/imgs/budapest.jpeg");
+}
+
+.card:hover {
+    background-color: #2e1760;
+    color: #DFF3E4;
+    cursor: pointer;
+    transform: scale(1.03);
+}
