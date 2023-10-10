@@ -11,8 +11,7 @@ body {
     margin: 0;
     font-size: 22px;
     font-family: 'Dela Gothic One', cursive;
-    padding: 27px 0;
-    padding-left: 16px
+    padding: 27px 0 27px 16px;
 }
 
 .navbar {
